@@ -18,7 +18,7 @@ public class BaseThemeActivity extends AppCompatActivity {
 
     /**
      * 此方法会在onCreate方法之前被系统执行
-     *
+     *gi
      * @param resid
      */
     @Override
