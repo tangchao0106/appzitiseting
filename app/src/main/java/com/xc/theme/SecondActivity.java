@@ -21,7 +21,7 @@ public class SecondActivity extends BaseThemeActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent=new Intent(SecondActivity.this,SettingActivity.class);
+                Intent intent=new Intent(SecondActivity.this,MainActivity.class);
                 startActivity(intent);
             }
         });

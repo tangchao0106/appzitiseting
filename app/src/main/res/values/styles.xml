@@ -6,33 +6,62 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="smallSize">14sp</item>
-        <item name="normalSize">16sp</item>
-        <item name="largeSize">18sp</item>
+
         <item name="android:textColor">@android:color/holo_red_light</item>
     </style>
 
     <!-- Base application theme. -->
     <style name="AppTheme.Smallsize" parent="AppTheme">
         <!-- Customize your theme here. -->
-        <item name="smallSize">12sp</item>
-        <item name="normalSize">14sp</item>
-        <item name="largeSize">16sp</item>
+        <item name="normalSize8">6sp</item>
+        <item name="normalSize10">8sp</item>
+        <item name="normalSize12">10sp</item>
+        <item name="normalSize14">12sp</item>
+        <item name="normalSize16">14sp</item>
+        <item name="normalSize18">16sp</item>
+        <item name="normalSize20">18sp</item>
+        <item name="normalSize22">20sp</item>
+        <item name="normalSize24">22sp</item>
+        <item name="normalSize26">24sp</item>
+        <item name="normalSize28">26sp</item>
+        <item name="normalSize30">28sp</item>
+        <item name="normalSize32">30sp</item>
     </style>
     <!-- Base application theme. -->
     <style name="AppTheme.NormalSize" parent="AppTheme">
         <!-- Customize your theme here. -->
-        <item name="smallSize">16sp</item>
-        <item name="normalSize">18sp</item>
-        <item name="largeSize">20sp</item>
+        <item name="normalSize8">8sp</item>
+        <item name="normalSize10">10sp</item>
+        <item name="normalSize12">12sp</item>
+        <item name="normalSize14">14sp</item>
+        <item name="normalSize16">16sp</item>
+        <item name="normalSize18">18sp</item>
+        <item name="normalSize20">20sp</item>
+        <item name="normalSize22">22sp</item>
+        <item name="normalSize24">24sp</item>
+        <item name="normalSize26">26sp</item>
+        <item name="normalSize28">28sp</item>
+        <item name="normalSize30">30sp</item>
+        <item name="normalSize32">32sp</item>
+
 
     </style>
     <!-- Base application theme. -->
     <style name="AppTheme.LargeSize" parent="AppTheme">
         <!-- Customize your theme here. -->
-        <item name="smallSize">20sp</item>
-        <item name="normalSize">22sp</item>
-        <item name="largeSize">24sp</item>
+        <item name="normalSize8">12sp</item>
+        <item name="normalSize10">14sp</item>
+        <item name="normalSize12">16sp</item>
+        <item name="normalSize14">18sp</item>
+        <item name="normalSize16">20sp</item>
+        <item name="normalSize18">22sp</item>
+        <item name="normalSize20">24sp</item>
+        <item name="normalSize22">26sp</item>
+        <item name="normalSize24">28sp</item>
+        <item name="normalSize26">30sp</item>
+        <item name="normalSize28">32sp</item>
+        <item name="normalSize30">34sp</item>
+        <item name="normalSize32">36sp</item>
     </style>
 
 
@@ -46,8 +75,21 @@
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <!--设置自定义字体属性-->
     <declare-styleable name="ThemeTextSize">
-        <attr name="smallSize" format="dimension" />
-        <attr name="normalSize" format="dimension" />
-        <attr name="largeSize" format="dimension" />
+        <attr name="normalSize8" format="dimension" />
+        <attr name="normalSize10" format="dimension" />
+        <attr name="normalSize12" format="dimension" />
+        <attr name="normalSize14" format="dimension" />
+        <attr name="normalSize16" format="dimension" />
+        <attr name="normalSize18" format="dimension" />
+        <attr name="normalSize20" format="dimension" />
+        <attr name="normalSize22" format="dimension" />
+        <attr name="normalSize24" format="dimension" />
+        <attr name="normalSize26" format="dimension" />
+        <attr name="normalSize28" format="dimension" />
+        <attr name="normalSize30" format="dimension" />
+        <attr name="normalSize32" format="dimension" />
+        <attr name="normalSize34" format="dimension" />
+
+
     </declare-styleable>
 </resources>

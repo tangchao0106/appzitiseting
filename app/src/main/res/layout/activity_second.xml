@@ -19,7 +19,7 @@
         android:layout_marginTop="10dp"
 
         android:textColor="?android:textColor"
-        android:textSize="?smallSize"
+        android:textSize="?normalSize12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="我是主页面" />
@@ -28,7 +28,7 @@
         android:layout_marginTop="10dp"
 
         android:textColor="?android:textColor"
-        android:textSize="?normalSize"
+        android:textSize="?normalSize14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="我是主页面" />
@@ -36,7 +36,7 @@
         android:layout_marginTop="10dp"
 
         android:textColor="?android:textColor"
-        android:textSize="?largeSize"
+        android:textSize="?normalSize16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="我是主页面" />

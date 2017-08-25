@@ -24,7 +24,7 @@
         android:layout_marginTop="10dp"
         android:text="我是主页面"
         android:textColor="?android:textColor"
-        android:textSize="?smallSize" />
+        android:textSize="?normalSize10" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_marginTop="10dp"
         android:text="我是主页面"
         android:textColor="?android:textColor"
-        android:textSize="?normalSize" />
+        android:textSize="?normalSize12" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
         android:layout_marginTop="10dp"
         android:text="我是主页面"
         android:textColor="?android:textColor"
-        android:textSize="?largeSize" />
+        android:textSize="?normalSize14" />
 
     <Button
         android:id="@+id/btn_next"

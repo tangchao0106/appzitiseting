@@ -1,5 +1,6 @@
 package com.xc.theme;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
@@ -10,7 +11,7 @@ public class SettingActivity extends BaseThemeActivity implements View.OnClickLi
     Button btnSmall;
     Button btnNormal;
     Button btnLarge;
-
+    private Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,25 +26,33 @@ public class SettingActivity extends BaseThemeActivity implements View.OnClickLi
         btnNormal.setOnClickListener(this);
         btnLarge = (Button) findViewById(R.id.btnLarge);
         btnLarge.setOnClickListener(this);
+        btn= (Button) findViewById(R.id.btn_next);
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(SettingActivity.this,SecondActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
     public void onClick(View view) {
         if (view == btnSmall) {
             ThemeManager.setTheme(this, R.style.AppTheme_Smallsize, false);
-            btnSmall.setTextSize(12);
-            btnNormal.setTextSize(14);
-            btnLarge.setTextSize(16);
+            btnSmall.setTextSize(8);
+            btnNormal.setTextSize(12);
+            btnLarge.setTextSize(14);
         } else if (view == btnNormal) {
             ThemeManager.setTheme(this, R.style.AppTheme_NormalSize, false);
+            btnSmall.setTextSize(10);
+            btnNormal.setTextSize(14);
+            btnLarge.setTextSize(16);
+        } else if (view == btnLarge) {
+            ThemeManager.setTheme(this, R.style.AppTheme_LargeSize, false);
             btnSmall.setTextSize(16);
             btnNormal.setTextSize(18);
             btnLarge.setTextSize(20);
-        } else if (view == btnLarge) {
-            ThemeManager.setTheme(this, R.style.AppTheme_LargeSize, false);
-            btnSmall.setTextSize(20);
-            btnNormal.setTextSize(22);
-            btnLarge.setTextSize(24);
         }
     }
 

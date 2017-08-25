@@ -24,16 +24,16 @@
         android:layout_marginTop="10dp"
         android:text="小号"
         android:textColor="?android:textColor"
-        android:textSize="?smallSize" />
+        android:textSize="?normalSize10" />
 
     <Button
         android:id="@+id/btnNormal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="中号"
+        android:text="正常"
         android:textColor="?android:textColor"
-        android:textSize="?normalSize" />
+        android:textSize="?normalSize14" />
 
     <Button
         android:id="@+id/btnLarge"
@@ -42,6 +42,12 @@
         android:layout_marginTop="10dp"
         android:text="大号"
         android:textColor="?android:textColor"
-        android:textSize="?largeSize" />
+        android:textSize="?normalSize16" />
+    <Button
+        android:layout_marginTop="10dp"
 
+        android:id="@+id/btn_next"
+        android:text="下一页"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
