@@ -1,0 +1,53 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="smallSize">14sp</item>
+        <item name="normalSize">16sp</item>
+        <item name="largeSize">18sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Smallsize" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="smallSize">12sp</item>
+        <item name="normalSize">14sp</item>
+        <item name="largeSize">16sp</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme.NormalSize" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="smallSize">16sp</item>
+        <item name="normalSize">18sp</item>
+        <item name="largeSize">20sp</item>
+
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme.LargeSize" parent="AppTheme">
+        <!-- Customize your theme here. -->
+        <item name="smallSize">20sp</item>
+        <item name="normalSize">22sp</item>
+        <item name="largeSize">24sp</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!--设置自定义字体属性-->
+    <declare-styleable name="ThemeTextSize">
+        <attr name="smallSize" format="dimension" />
+        <attr name="normalSize" format="dimension" />
+        <attr name="largeSize" format="dimension" />
+    </declare-styleable>
+</resources>
